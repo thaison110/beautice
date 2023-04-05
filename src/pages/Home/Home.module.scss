@@ -1,0 +1,594 @@
+.wrapper {
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: start;
+}
+.content {
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    width: 430px;
+    height: 128px;
+    left: 250px;
+    top: 316px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    /* or 60px */
+
+    color: #091156;
+}
+.description {
+    position: absolute;
+    width: 474px;
+    height: 54px;
+    left: 250px;
+    top: 444px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+
+    color: #091156;
+}
+.btn-01 {
+    position: absolute;
+    top: 526px;
+    background: #ff64ae;
+    border-radius: 50px;
+    left: 250px;
+}
+
+.btn-contact {
+    width: 200px;
+    height: 58.36px;
+    left: 250px;
+    background: #ff64ae;
+    box-shadow: 0px 17px 22px #ffedf6;
+    border-radius: 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: none;
+    color: #ffffff;
+    &:hover {
+        background-color: #0056b3;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+.right {
+    width: 50%;
+}
+
+.left {
+    width: 50%;
+}
+
+//Main Services
+
+.Main-Services {
+    margin-top: 300px;
+    text-align: center;
+    margin-right: 130px;
+}
+.title-main {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+}
+.description-main {
+    color: #091156;
+    font-size: 3.6rem;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.description-main-1 {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+//box section
+.box-section {
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 120px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.box-01 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-radius: 42px;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0px 25px 50px 25px #eaedff;
+        transition: all 0.4s ease;
+    }
+}
+
+.header-box {
+    position: relative;
+    z-index: 2;
+}
+
+.box-avatar {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.box-body {
+    position: relative;
+    z-index: 2;
+}
+
+.box-title {
+    padding: 5px 0px 5px 0px;
+    color: #091156;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box-description {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.box-02 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-radius: 42px;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0px 25px 50px 25px #eaedff;
+        transition: all 0.4s ease;
+    }
+}
+.box-03 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-radius: 42px;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0px 25px 50px 25px #eaedff;
+        transition: all 0.4s ease;
+    }
+}
+///Background
+.background-aboutus {
+    z-index: 1;
+    background-size: cover;
+    position: absolute;
+    width: 948.15px;
+    height: 1028.89px;
+    top: 1260px;
+    left: 730px;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-1.png");
+}
+.aboutus {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
+.left-about {
+    width: 330px;
+}
+.title-about {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+    text-align: start;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.title-aboutus {
+    margin-left: 50px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #091156;
+    margin-bottom: 15px;
+}
+.description-aboutus {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    margin-right: 180px;
+}
+
+.btn-aboutus {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.btn-aboutus-more {
+    font-weight: 600;
+    width: 172px;
+    height: 60px;
+    background: #ff64ae;
+    box-shadow: 0px 17px 22px #ffedf6;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: none;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 40px;
+    &:hover {
+        background-color: #0056b3;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+.btn-icon-watch {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-play {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #0056b3;
+    &:hover {
+        background-color: #ab6fb0;
+        cursor: pointer;
+    }
+}
+//Teams
+.Teams {
+    margin-top: 650px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title-Teams {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.description-Teams {
+    color: #091156;
+    font-size: 3.6rem;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.description-Teams-1 {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+}
+//Professional-section
+.Professional-section {
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 220px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.Professional-box-01 {
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    border-radius: 42px;
+
+    text-align: center;
+}
+
+.Professional-header-box {
+    position: relative;
+    z-index: 2;
+}
+
+.Professional-box-avatar {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.Professional-box-body {
+    position: relative;
+    z-index: 2;
+}
+
+.Professional-box-title {
+    padding: 5px 0px 5px 0px;
+    color: #091156;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Professional-box-title2 {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Professional-box-description {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.Professional-box-02 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-radius: 42px;
+    text-align: center;
+}
+.Professional-box-03 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    border-radius: 42px;
+    text-align: center;
+}
+.icon-socical {
+    margin-top: 3rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.blue-icon .pink-icon .light-blue-icon {
+    width: 24px;
+    height: 25px;
+    font-size: 3rem;
+}
+.blue-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: #3b5998;
+    }
+}
+.pink-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: pink;
+    }
+}
+.light-blue-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: lightblue;
+    }
+}
+.blue-icon:hover {
+    color: rgb(255, 255, 255);
+}
+.pink-media:hover {
+    color: rgb(255, 255, 255);
+}
+.light-blue-media:hover {
+    color: rgb(255, 255, 255);
+}
+
+// .blue-icon {
+//     &:hover {
+//         background-color: #3b5998;
+//     }
+// }
+
+// .light-blue-icon {
+//     &:hover {
+//         background-color: #1da1f2;
+//     }
+// }
+
+// .pink-icon {
+//     &:hover {
+//         background-color: #fb679b;
+//     }
+// }
+.background-form {
+    z-index: 1;
+    background-size: cover;
+    position: absolute;
+
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-2.png");
+    height: 1000px;
+    width: 100%;
+    top: 2662px;
+    right: 550px;
+}
+////Dien form
+.section-form {
+    display: flex;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.img-form {
+    z-index: 2;
+    width: 50%;
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center;
+}
+.input-form {
+    z-index: 2;
+    width: 50%;
+}
+.title-form {
+    text-align: start;
+    margin-bottom: 30px;
+}
+.title-contactus {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+.description-main-us {
+    color: #091156;
+    font-size: 3.6rem;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.description-main-us-1 {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+}
+///Form
+.input-form {
+    margin-left: 40px;
+}
+///
+.form01 {
+    display: flex;
+}
+.first-name {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d9ddfe;
+    width: 230px;
+    height: 51px;
+    margin-right: 36px;
+
+    padding: 12px 25px;
+    input {
+        font-size: 1.5rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+.last-name {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d9ddfe;
+    width: 230px;
+    height: 51px;
+    padding: 12px 25px;
+    input {
+        font-size: 1.5rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+.form02 {
+    margin-top: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d9ddfe;
+    width: 495px;
+    height: 51px;
+    padding: 12px 25px;
+    input {
+        font-size: 1.5rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+.form03 {
+    margin-top: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d9ddfe;
+    width: 495px;
+    height: 239px;
+    padding: 12px 25px;
+    input {
+        font-size: 1.5rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+.btnform {
+    margin-top: 30px;
+    font-weight: 600;
+    width: 172px;
+    height: 60px;
+    background: #ff64ae;
+    box-shadow: 0px 17px 22px #ffedf6;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: none;
+    color: #ffffff;
+    &:hover {
+        background-color: #0056b3;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
