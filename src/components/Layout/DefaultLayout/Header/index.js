@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import styles from "./Header.module.scss";
 import { Link } from "react-router-dom";
+import Button from "~/components/Button";
 
 const cx = classNames.bind(styles);
 
@@ -32,9 +33,12 @@ function Header() {
                         Blog
                     </Link>
                     {/* Button */}
-                    <Link to="/contact">
+                    <div className={cx("actions")}>
+                        <Button></Button>
+                    </div>
+                    {/* <Link to="/contact">
                         <button className={cx("btn")}>Contact</button>
-                    </Link>
+                    </Link> */}
                 </nav>
             </div>
         </header>

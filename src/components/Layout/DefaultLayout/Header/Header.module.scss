@@ -1,63 +1,66 @@
 .wrapper {
-    width: 100%;
+    width: 100vw;
     height: var(--defaultlayout-header-hight);
     display: flex;
     justify-content: center;
-    margin-right: 180px;
+    z-index: 3;
+    text-align: center;
+    align-items: center;
 }
 .inner {
+    justify-content: center;
     width: var(--defaultlayout-header-width);
     height: 150px;
     display: flex;
-    margin-left: 150px;
-    justify-content: center;
-}
-.logo {
-    height: 63px;
-    width: 258px;
-    align-content: center;
-    margin-top: 43.5px;
-    cursor: pointer;
-}
-.navi {
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #8b8b8b;
-    padding: 0px 23px 0px 100px;
-    display: flex;
-    align-items: center;
 
-    .text {
-        color: #8b8b8b;
-        text-decoration: none;
-        margin: 0px 23px 0px 23px;
+    .logo {
+        height: 63px;
+        width: 258px;
+        align-content: center;
+        margin-top: 43.5px;
+        cursor: pointer;
+    }
+    .navi {
+        font-family: "Poppins", Sans-serif;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 2px;
+        color: #8b8b8b;
+        padding: 0px 23px 0px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .text {
+            color: #8b8b8b;
+            text-decoration: none;
+            margin: 0px 23px 0px 23px;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            &:hover {
+                color: #414880;
+                transition: 0.7s;
+            }
+        }
+
+        .blue {
+            color: #414880;
+        }
+    }
+    .btn {
+        padding: 18px 45px 18px 45px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #ff64ae;
+        border-style: none;
+        border-radius: 50px 50px 50px 50px;
+        margin-left: 40px;
         &:hover {
             color: #414880;
             transition: 0.7s;
+            cursor: pointer;
         }
-    }
-
-    .blue {
-        color: #414880;
-    }
-}
-.btn {
-    padding: 18px 45px 18px 45px;
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #ff64ae;
-    border-style: none;
-    border-radius: 50px 50px 50px 50px;
-    margin-left: 40px;
-    &:hover {
-        color: #414880;
-        transition: 0.7s;
-        cursor: pointer;
     }
 }

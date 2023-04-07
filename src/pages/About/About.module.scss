@@ -1,0 +1,461 @@
+.wrapper {
+    margin-top: 100px;
+    margin-left: 150px;
+    text-align: start;
+}
+.content {
+    display: inline;
+}
+//About
+.Main-Services {
+    margin-bottom: 60px;
+}
+.title-main {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+}
+.description-main {
+    color: #091156;
+    font-size: 3.6rem;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.description-main-1 {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+// Watch content
+.watch-background {
+    z-index: 2;
+    width: 1140px;
+    height: 540px;
+    border: 1px solid #091156;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/unsplash_DE6rYp1nAho.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    .btn-play {
+        width: 88px;
+        height: 88px;
+        border-radius: 100%;
+        background-color: #091156;
+        &:hover {
+            background-color: var(--primary);
+            cursor: pointer;
+        }
+    }
+    .icon-play {
+        width: 88px;
+        height: 88px;
+        color: white;
+        border: none;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.background {
+    z-index: 1;
+    position: absolute;
+    top: 414px;
+    width: 1140px;
+    right: 0;
+    height: 1480px;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-3.png");
+    background-size: cover;
+}
+//Teammmm
+.Teams {
+    position: absolute;
+    border: 1px solid #091156;
+    top: 1200px;
+    right: 585px;
+    z-index: 3;
+    text-align: center;
+}
+.title-Teams {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.description-Teams {
+    color: #091156;
+    font-size: 3.6rem;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.description-Teams-1 {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/// Pro
+.Professional-section {
+    width: 1140px;
+    margin-top: 1070px;
+    display: flex;
+    margin-bottom: 120px;
+}
+.Professional-box-01 {
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    border-radius: 42px;
+
+    text-align: center;
+}
+
+.Professional-header-box {
+    position: relative;
+    z-index: 2;
+}
+
+.Professional-box-avatar {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.Professional-box-body {
+    position: relative;
+    z-index: 2;
+}
+
+.Professional-box-title {
+    padding: 5px 0px 5px 0px;
+    color: #091156;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Professional-box-title2 {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Professional-box-description {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.Professional-box-02 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-radius: 42px;
+
+    text-align: center;
+}
+.Professional-box-03 {
+    z-index: 2;
+    width: 33%;
+    margin: 0px 27.5px 0px 27.5px;
+    line-height: 26px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    border-radius: 42px;
+    text-align: center;
+}
+.icon-socical {
+    margin-top: 3rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.blue-icon .pink-icon .light-blue-icon {
+    width: 24px;
+    height: 25px;
+    font-size: 3rem;
+}
+.blue-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: #3b5998;
+    }
+}
+.pink-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: pink;
+    }
+}
+.light-blue-media {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    line-height: 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 6px 16px -1px #e6e9fd;
+    &:hover {
+        background-color: lightblue;
+    }
+}
+.blue-icon:hover {
+    color: rgb(255, 255, 255);
+}
+.pink-media:hover {
+    color: rgb(255, 255, 255);
+}
+.light-blue-media:hover {
+    color: rgb(255, 255, 255);
+}
+
+//Slogan
+.backgroundslogan {
+    width: 100vw;
+}
+
+.business-slogan {
+    z-index: 1;
+    position: relative;
+    border: 1px solid #f90000;
+    width: 100vw;
+    left: -120px;
+    height: 540px;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/unsplash_Pe9IXUuC6QU.png");
+    background-size: cover;
+}
+.opacity-background {
+    z-index: 2;
+    position: absolute;
+    background-color: #091156;
+    background-color: rgba(9, 17, 86, 0.5);
+    width: 100vw;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.section03 {
+    position: absolute;
+    z-index: 3;
+    border: 1px solid #f90000;
+    height: 540px;
+    width: 1140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.business-text {
+    z-index: 3;
+}
+.business-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.business-description {
+    color: #ffffff;
+    font-size: 3.6rem;
+
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.business-description-1 {
+    margin-top: 20px;
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+//section04
+.section04 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 1140px;
+    margin-left: 150px;
+}
+.section04-left {
+    display: flex;
+    width: 50%;
+    text-align: start;
+    align-items: center;
+}
+.section04-right {
+    width: 50%;
+    margin-left: 100px;
+    //Main Services
+    .main-text {
+        margin-top: 100px;
+        text-align: start;
+    }
+    .title-main {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: var(--primary);
+        margin-bottom: 20px;
+    }
+    .description-main {
+        color: #091156;
+        font-size: 3.6rem;
+        line-height: 125%;
+        margin-bottom: 20px;
+    }
+    .description-main-1 {
+        color: #8b8b8b;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+//Section 5
+.section05 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 1140px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.section05-left {
+    display: flex;
+
+    width: 50%;
+
+    .main-text {
+        margin-top: 100px;
+        text-align: start;
+    }
+    .title-main {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 125%;
+        color: var(--primary);
+        margin-bottom: 20px;
+    }
+    .description-main {
+        color: #091156;
+        font-size: 3.6rem;
+        line-height: 125%;
+        margin-bottom: 20px;
+    }
+    .description-main-1 {
+        color: #8b8b8b;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.section04-right {
+    width: 50%;
+    margin-left: 100px;
+    text-align: start;
+    align-items: center;
+    //Main Services
+}
+.background-section {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 1480px;
+    top: 2700px;
+    right: 0;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-4a.png");
+    background-size: cover;
+}
+//section
+.section006 {
+    position: relative;
+    z-index: 2;
+    border: 1px solid #f90000;
+    width: 1440px;
+    text-align: center;
+    margin-bottom: 100px;
+    .section006-title {
+        color: #ff64ae;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0px 0px 20px 0px;
+    }
+    .section006-description-main {
+        color: #091156;
+        margin: 0px 0px 20px 0px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .section006-description-main-1 {
+        color: #8b8b8b;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+///section007
+.section007 {
+    position: relative;
+    z-index: 2;
+    border: 1px solid #f90000;
+    width: 1440px;
+    height: 330px;
+    .section007-logo {
+        border: 1px solid #f90000;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 3rem;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon-logo {
+        display: flex;
+        height: 170px;
+        width: 198px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .icon-logo-img {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

@@ -3,6 +3,8 @@
     width: 100%;
     z-index: 1;
     background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/footer_bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .inner {
     height: 530px;
@@ -115,6 +117,7 @@
     .footer-right {
         width: 70%;
         z-index: 2;
+        display: flex;
     }
     .text-right {
         margin-top: 3rem;
@@ -123,5 +126,13 @@
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 1px;
+    }
+    .btn-footer {
+        width: 40px;
+        height: 40px;
+        margin-left: 200px;
+        background-color: var(--primary);
+        cursor: pointer;
+        border-radius: 6px;
     }
 }

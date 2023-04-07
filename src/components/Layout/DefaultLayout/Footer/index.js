@@ -181,7 +181,7 @@ function Footer() {
                     <p className={cx("text-right")}>
                         © AltDesain Studio 2021 – All right reserved.
                     </p>
-                    <button></button>
+                    <button className={cx("btn-footer")}></button>
                 </div>
             </div>
         </footer>
